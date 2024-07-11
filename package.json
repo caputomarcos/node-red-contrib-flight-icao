@@ -1,0 +1,22 @@
+{
+  "name": "node-red-contrib-flight-icao",
+  "version": "1.0.3",
+  "description": "Nó para consultar informações de voo por código ICAO",
+  "main": "nodes/flight-icao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node-red",
+    "node",
+    "flight",
+    "icao"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "node-red": {
+    "nodes": {
+      "flight-icao": "nodes/flight-icao.js"
+    }
+  }
+}
